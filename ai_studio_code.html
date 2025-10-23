@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Command Demo</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; background-color: #f0f0f0; }
+        #touch-area {
+            width: 300px;
+            height: 300px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            touch-action: none; /* Prevents default browser actions like scrolling/zooming */
+            user-select: none; /* Prevents text selection on touch */
+            transition: background-color 0.3s ease;
+        }
+        #touch-area.active {
+            background-color: #f44336; /* Red when active */
+        }
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="touch-area">
+            Tap, Swipe, or Hold Me!
+        </div>
+        <div id="output">
+            Action: None
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -151,7 +151,7 @@ To get a local copy up and running follow these simple steps.
 ### Configuration
 
 1.  **Google Maps API Key:**
-    Edit the Python files (`your_python_directions_script.py` and potentially others) and replace `"YOUR_GOOGLE_MAPS_API_KEY"` with your key.
+    Edit the Python files (`speech_recognition_script.py` and potentially others) and replace `"YOUR_GOOGLE_MAPS_API_KEY"` with your key.
 
 2.  **IoT API Configuration:**
     If you're integrating with real IoT devices, modify the `control_iot_device` function in your IoT script to make actual API calls or MQTT messages to your devices. Update relevant URLs and tokens.
@@ -161,9 +161,9 @@ To get a local copy up and running follow these simple steps.
 *   **For Voice Commands:**
     Run the respective Python script:
     ```bash
-    python your_python_iot_script.py
+    python speech_recognition_script.py
     # or
-    python your_python_directions_script.py
+    python WAKE_WORD.py
     ```
     Then, speak the specified wake word and commands.
 

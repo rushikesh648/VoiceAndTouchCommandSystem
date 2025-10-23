@@ -113,10 +113,10 @@ To get a local copy up and running follow these simple steps.
 
 1.  **Clone the repo:**
     ```bash
-    git clone https://github.com/YourGitHubUsername/VoiceAndTouchCommandSystem.git
+    git clone https://github.com/rushikesh648/VoiceAndTouchCommandSystem.git
     cd VoiceAndTouchCommandSystem
     ```
-    (Replace `YourGitHubUsername/VoiceAndTouchCommandSystem.git` with your actual repository URL)
+  
 
 2.  **Install Python packages:**
     ```bash
@@ -191,4 +191,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - your.email@example.com
 
-Project Link: [https://github.com/YourGitHubUsername/VoiceAndTouchCommandSystem](https://github.com/YourGitHubUsername/VoiceAndTouchCommandSystem)
+Project Link: [https://github.com/rushikesh648/VoiceAndTouchCommandSystem](https://github.com/rushikesh648/VoiceAndTouchCommandSystem)
